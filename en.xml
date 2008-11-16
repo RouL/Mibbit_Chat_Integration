@@ -50,7 +50,8 @@
 	
 	<!-- USER -->
 	<category name="wcf.mibbit">
-		<item name="wcf.mibbit.title"><![CDATA[<a href="index.php?page=MibbitChat">Chat</a>]]></item>
+		<item name="wcf.mibbit.title"><![CDATA[Chat]]></item>
+		<item name="wcf.mibbit.location"><![CDATA[<a href="index.php?page=MibbitChat">Chat</a>]]></item>
 	</category>
 	
 	<category name="wcf.header.menu">

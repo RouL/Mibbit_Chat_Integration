@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/pageLocations.dtd">
-<data>	
-	<import>
-		<pagelocation name="wcf.mibbit.title">
-			<pattern><![CDATA[index\.php\?page=MibbitChat]]></pattern>
-		</pagelocation>
-	</import>
-</data>
