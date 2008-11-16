@@ -2,7 +2,7 @@
 <!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/pageLocations.dtd">
 <data>	
 	<import>
-		<pagelocation name="wcf.mibbit.title">
+		<pagelocation name="wcf.mibbit.location">
 			<pattern><![CDATA[index\.php\?page=MibbitChat]]></pattern>
 		</pagelocation>
 	</import>
