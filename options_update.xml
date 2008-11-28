@@ -3,104 +3,7 @@
 <!-- SVN-ID: $Id$ -->
 <data>
 	<import>
-		<categories>
-			<category name="mibbit"></category>
-
-			<category name="mibbit.connection">
-				<parent>mibbit</parent>
-				<showorder>1</showorder>
-			</category>
-
-			<category name="mibbit.appearance">
-				<parent>mibbit</parent>
-				<showorder>2</showorder>
-			</category>
-		</categories>
-		
 		<options>
-			<!-- mibbit.connection -->
-			<option name="mibbit_authkey">
-				<categoryname>mibbit.connection</categoryname>
-				<optiontype>text</optiontype>
-				<defaultvalue></defaultvalue>
-				<hidden>1</hidden>
-			</option>
-
-			<option name="mibbit_authmethod">
-				<categoryname>mibbit.connection</categoryname>
-				<optiontype>select</optiontype>
-				<selectoptions><![CDATA[nickserv:wcf.acp.option.mibbit_authmethod.nickserv
-pass:wcf.acp.option.mibbit_authmethod.pass]]></selectoptions>
-				<defaultvalue>nickserv</defaultvalue>
-				<showorder>7</showorder>
-			</option>
-
-			<option name="mibbit_autoconnect">
-				<categoryname>mibbit.connection</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-				<showorder>5</showorder>
-			</option>
-
-			<option name="mibbit_channels">
-				<categoryname>mibbit.connection</categoryname>
-				<optiontype>textarea</optiontype>
-				<defaultvalue>#roulcc</defaultvalue>
-				<showorder>3</showorder>
-			</option>
-
-			<!-- NOTE: better use wcf charset -->
-			<option name="mibbit_charset">
-				<categoryname>mibbit.connection</categoryname>
-				<optiontype>select</optiontype>
-				<selectoptions><![CDATA[auto:wcf.acp.option.mibbit_charset.auto
-UTF-8
-Big5
-ISO-8859-1
-ISO-8859-2
-ISO-8859-3
-ISO-8859-4
-ISO-8859-5
-ISO-8859-6
-ISO-8859-7
-ISO-8859-8
-ISO-8859-9
-ISO-8859-13
-ISO-8859-15
-windows-1250
-windows-1251
-windows-1252
-windows-1253
-windows-1254
-windows-1255
-windows-1256
-windows-1257
-windows-1258]]></selectoptions>
-				<defaultvalue>auto</defaultvalue>
-				<showorder>6</showorder>
-			</option>
-
-			<option name="mibbit_guestnick">
-				<categoryname>mibbit.connection</categoryname>
-				<optiontype>text</optiontype>
-				<defaultvalue>mibbit_????</defaultvalue>
-				<showorder>4</showorder>
-			</option>
-
-			<option name="mibbit_promptpass">
-				<categoryname>mibbit.connection</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-				<showorder>8</showorder>
-			</option>
-
-			<option name="mibbit_server">
-				<categoryname>mibbit.connection</categoryname>
-				<optiontype>text</optiontype>
-				<defaultvalue></defaultvalue>
-				<showorder>1</showorder>
-			</option>
-
 			<option name="mibbit_server_select">
 				<categoryname>mibbit.connection</categoryname>
 				<optiontype>select</optiontype>
@@ -243,68 +146,9 @@ irc.xchannel.org:XChannel
 irc.xnode.fr:Xnode webirc
 irc.youthfire.com:YouthFire webirc
 irc.ztecnet.net:ZTecNET webirc]]></selectoptions>
-				<defaultvalue>webirc.gamesurge.net!6007</defaultvalue>
-				<showorder>2</showorder>
-			</option>
-			<!-- /mibbit.connection -->
-
-			<!-- mibbit.appearance -->
-			<option name="mibbit_debug">
-				<categoryname>mibbit.appearance</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-				<showorder>8</showorder>
-			</option>
-			
-			<option name="mibbit_height">
-				<categoryname>mibbit.appearance</categoryname>
-				<optiontype>integer</optiontype>
-				<defaultvalue>500</defaultvalue>
+				<defaultvalue>custom</defaultvalue>
 				<showorder>1</showorder>
 			</option>
-
-			<option name="mibbit_loadingmessage">
-				<categoryname>mibbit.appearance</categoryname>
-				<optiontype>text</optiontype>
-				<defaultvalue></defaultvalue>
-				<showorder>3</showorder>
-			</option>
-
-			<option name="mibbit_settingsid">
-				<categoryname>mibbit.appearance</categoryname>
-				<optiontype>text</optiontype>
-				<defaultvalue></defaultvalue>
-				<showorder>4</showorder>
-			</option>
-
-			<option name="mibbit_showmotd">
-				<categoryname>mibbit.appearance</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-				<showorder>5</showorder>
-			</option>
-
-			<option name="mibbit_showservernotices">
-				<categoryname>mibbit.appearance</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-				<showorder>6</showorder>
-			</option>
-
-			<option name="mibbit_showservertab">
-				<categoryname>mibbit.appearance</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-				<showorder>7</showorder>
-			</option>
-
-			<option name="mibbit_welcomemessage">
-				<categoryname>mibbit.appearance</categoryname>
-				<optiontype>text</optiontype>
-				<defaultvalue></defaultvalue>
-				<showorder>2</showorder>
-			</option>
-			<!-- /mibbit.appearance -->
 		</options>
 	</import>
 </data>

@@ -4,6 +4,7 @@
 	<comment></comment>
 	<projects>
 		<project>WCF 1.0.x</project>
+		<project>WCF</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

@@ -28,8 +28,11 @@
 		<item name="wcf.acp.option.mibbit_guestnick.description"><![CDATA[Hier können sie ein Muster für Gastnicks angeben. Das Muster muss dabei irgendwo ein oder mehrere '?' enthalten, welche automatisch von Mibbit mit Buchstaben und Zahlen ersetzt werden, damit es bei mehreren Gästen nicht zu Namenskonflikten kommt.<br />Wenn das Feld leer gelassen wird werden die Gastnicks nach folgendem Muster von Mibbit erstellt: "mib_??????"]]></item>
 		<item name="wcf.acp.option.mibbit_promptpass"><![CDATA[Nach Passwort fragen]]></item>
 		<item name="wcf.acp.option.mibbit_promptpass.description"><![CDATA[Soll nach einem Passwort gefragt werden, mit dem sich am Server angemeldet wird? (Siehe "Anmeldemethode")]]></item>
-		<item name="wcf.acp.option.mibbit_server"><![CDATA[Server]]></item>
-		<item name="wcf.acp.option.mibbit_server.description"><![CDATA[Geben sie hier den IRC-Server in dieser Form an: &lt;domain/ip&gt;[:port] Wenn sie den Port weg lassen wird der Standardport 6667 angenommen.<br />Beispiel "webirc.gamesurge.net:6007" oder "irc.undernet.org"]]></item>
+		<item name="wcf.acp.option.mibbit_server"><![CDATA[Benutzerdefinierter Server]]></item>
+		<item name="wcf.acp.option.mibbit_server.description"><![CDATA[Geben sie hier einen benutzerdefinierten IRC-Server in dieser Form an: &lt;domain/ip&gt;[:port] Wenn sie den Port weg lassen wird der Standardport 6667 angenommen.<br />Beispiel "webirc.gamesurge.net:6007" oder "irc.undernet.org"]]></item>
+		<item name="wcf.acp.option.mibbit_server_select"><![CDATA[Server]]></item>
+		<item name="wcf.acp.option.mibbit_server_select.custom"><![CDATA[Benutzerdefinierter Server]]></item>
+		<item name="wcf.acp.option.mibbit_server_select.description"><![CDATA[Wählen sie einen Server aus. Alternativ können sie auch einen benutzerdefinierten Server angeben.]]></item>
 		<item name="wcf.acp.option.mibbit_showmotd"><![CDATA[MOTD anzeigen]]></item>
 		<item name="wcf.acp.option.mibbit_showmotd.description"><![CDATA[Soll die MOTD (Nachricht des Tages) des Servers angezeigt werden?]]></item>
 		<item name="wcf.acp.option.mibbit_showservernotices"><![CDATA[Servernachrichten anzeigen]]></item>
@@ -42,7 +45,7 @@
 		<item name="wcf.acp.option.mibbit_loadingmessage"><![CDATA[Ladetext]]></item>
 		<item name="wcf.acp.option.mibbit_loadingmessage.description"><![CDATA[Hier haben sie die Möglichkeit einen eigenen Text anzugeben, der beim Laden von Mibbit angezeigt wird. Sprachvariablen werden unterstützt.]]></item>
 		<item name="wcf.acp.option.mibbit_settingsid"><![CDATA[Settings ID]]></item>
-		<item name="wcf.acp.option.mibbit_settingsid.description"><![CDATA[Hier können sie die id ihrer Einstellungen bei Mibbit eintragen um das Aussehen des Chats zu individualisieren.<br />Um eine Settings ID zu erhalten registrieren sie sich bei http://www.mibbit.com/ und schauen in den Einstellungen nach der ID.]]></item>
+		<item name="wcf.acp.option.mibbit_settingsid.description"><![CDATA[Hier können sie die id ihrer Einstellungen bei Mibbit eintragen um das Aussehen des Chats zu individualisieren.<br />Um eine Settings ID zu erhalten registrieren sie sich bei http://widget.mibbit.com/manager/ und schauen in den Einstellungen nach der ID.]]></item>
 		<item name="wcf.acp.option.mibbit_welcomemessage"><![CDATA[Willkommensnachricht]]></item>
 		<item name="wcf.acp.option.mibbit_welcomemessage.description"><![CDATA[Hier haben sie die Möglichkeit eine eigene Willkommensnachricht anzugeben. Sprachvariablen werden unterstützt.<br />
 <div class="info">Das Aktivieren dieser Option macht keinen Sinn, wenn das automatische Verbinden aktiviert ist.</div>]]></item>
