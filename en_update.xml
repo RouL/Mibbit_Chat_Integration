@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTDs/language.dtd">
+<!-- SVN-ID: $Id$ -->
+<language languagecode="en">
+	<!-- ACP -->
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.mibbit_server"><![CDATA[Custom server]]></item>
+		<item name="wcf.acp.option.mibbit_server.description"><![CDATA[Enter the servers address in the following form: &lt;domain/ip&gt;[:port] If you enter no port the standard port 6667 will be used.<br />Example "webirc.gamesurge.net:6007" or "irc.undernet.org"]]></item>
+		<item name="wcf.acp.option.mibbit_server_select"><![CDATA[Server]]></item>
+		<item name="wcf.acp.option.mibbit_server_select.custom"><![CDATA[Custom server]]></item>
+		<item name="wcf.acp.option.mibbit_server_select.description"><![CDATA[Choose a server. You can also use a custom server.]]></item>
+		<item name="wcf.acp.option.mibbit_settingsid.description"><![CDATA[Here you can enter your Mibbit settings ID for customizing the chat.<br />To get a settings ID you have to register with http://widget.mibbit.com/manager/ and look for your id at the preferences page.]]></item>
+	</category>
+</language>

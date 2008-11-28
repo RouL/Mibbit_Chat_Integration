@@ -28,8 +28,11 @@
 		<item name="wcf.acp.option.mibbit_height.description"><![CDATA[Here you can set the chats height (pixel).]]></item>
 		<item name="wcf.acp.option.mibbit_promptpass"><![CDATA[Ask for password]]></item>
 		<item name="wcf.acp.option.mibbit_promptpass.description"><![CDATA[Should Mibbit ask for a password for authentication with the server? (see also "Authentication Method")]]></item>
-		<item name="wcf.acp.option.mibbit_server"><![CDATA[Server]]></item>
+		<item name="wcf.acp.option.mibbit_server"><![CDATA[Custom server]]></item>
 		<item name="wcf.acp.option.mibbit_server.description"><![CDATA[Enter the servers address in the following form: &lt;domain/ip&gt;[:port] If you enter no port the standard port 6667 will be used.<br />Example "webirc.gamesurge.net:6007" or "irc.undernet.org"]]></item>
+		<item name="wcf.acp.option.mibbit_server_select"><![CDATA[Server]]></item>
+		<item name="wcf.acp.option.mibbit_server_select.custom"><![CDATA[Custom server]]></item>
+		<item name="wcf.acp.option.mibbit_server_select.description"><![CDATA[Choose a server. You can also use a custom server.]]></item>
 		<item name="wcf.acp.option.mibbit_showmotd"><![CDATA[Show MOTD]]></item>
 		<item name="wcf.acp.option.mibbit_showmotd.description"><![CDATA[Should the MOTD (Message of the day) from the server be displayed after connecting to the server?]]></item>
 		<item name="wcf.acp.option.mibbit_showservernotices"><![CDATA[Show server notices]]></item>
@@ -42,7 +45,7 @@
 		<item name="wcf.acp.option.mibbit_loadingmessage"><![CDATA[Loading message]]></item>
 		<item name="wcf.acp.option.mibbit_loadingmessage.description"><![CDATA[Here you can define a custom loading message. Language variables are supported.]]></item>
 		<item name="wcf.acp.option.mibbit_settingsid"><![CDATA[Settings ID]]></item>
-		<item name="wcf.acp.option.mibbit_settingsid.description"><![CDATA[Here you can enter your Mibbit settings ID for customizing the chat.<br />To get a settings ID you have to register with http://www.mibbit.com/ and look for your id at the preferences page.]]></item>
+		<item name="wcf.acp.option.mibbit_settingsid.description"><![CDATA[Here you can enter your Mibbit settings ID for customizing the chat.<br />To get a settings ID you have to register with http://widget.mibbit.com/manager/ and look for your id at the preferences page.]]></item>
 		<item name="wcf.acp.option.mibbit_welcomemessage"><![CDATA[Welcome message]]></item>
 		<item name="wcf.acp.option.mibbit_welcomemessage.description"><![CDATA[Here you can define a custom welcome message. Language variables are supported.<br />
 <div class="info">Enabling this optione doesn't make any sense if you have activated "Autoconnect".</div>]]></item>

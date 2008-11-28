@@ -11,7 +11,7 @@ require_once(WCF_DIR.'lib/page/AbstractPage.class.php');
  */
 class MibbitChatPage extends AbstractPage {
 	public	$templateName = 'mibbitPage';
-	public	$mibbit_url = 'http://embed.mibbit.com/';
+	public	$mibbit_url = 'http://widget.mibbit.com/';
 	public	$chat_height = MIBBIT_HEIGHT;
 	private	$romanize_table = array(
 		// Lower accents
@@ -166,7 +166,13 @@ class MibbitChatPage extends AbstractPage {
 		parent::readParameters();
 		
 		// Server
-		$this->mibbit_url .= "?server=".rawurlencode(MIBBIT_SERVER);
+		if (MIBBIT_SERVER_SELECT == "custom") {
+			$this->mibbit_url .= "?server=".rawurlencode(MIBBIT_SERVER);
+		}
+		else {
+			$server = explode("!", MIBBIT_SERVER_SELECT);
+			$this->mibbit_url .= "?server=".rawurlencode(implode(":", $server));
+		}
 		
 		// Channels
 		$channels = explode("\n", MIBBIT_CHANNELS);
