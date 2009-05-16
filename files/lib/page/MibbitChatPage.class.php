@@ -178,7 +178,7 @@ class MibbitChatPage extends AbstractPage {
 		$channels = explode("\n", MIBBIT_CHANNELS);
 		$channelString = "";
 		foreach ($channels as $channel) {
-			$channelString .= ((empty($channelString)) ? ('') : (',')).$channel;
+			$channelString .= ((empty($channelString)) ? ('') : (',')).trim($channel);
 		}
 		$this->mibbit_url .= "&channel=".rawurlencode($channelString);
 		
