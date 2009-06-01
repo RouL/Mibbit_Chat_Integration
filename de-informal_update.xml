@@ -1,14 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTDs/language.dtd">
 <!-- SVN-ID: $Id$ -->
-<language languagecode="de-informal">
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="de-informal">
 	<!-- ACP -->
 	<category name="wcf.acp.option">
-		<item name="wcf.acp.option.mibbit_server"><![CDATA[Benutzerdefinierter Server]]></item>
-		<item name="wcf.acp.option.mibbit_server.description"><![CDATA[Gieb hier einen benutzerdefinierten IRC-Server in dieser Form an: &lt;domain/ip&gt;[:port] Wenn du den Port weg lässt wird der Standardport 6667 angenommen.<br />Beispiel "webirc.gamesurge.net:6007" oder "irc.undernet.org"]]></item>
-		<item name="wcf.acp.option.mibbit_server_select"><![CDATA[Server]]></item>
-		<item name="wcf.acp.option.mibbit_server_select.custom"><![CDATA[Benutzerdefinierter Server]]></item>
-		<item name="wcf.acp.option.mibbit_server_select.description"><![CDATA[Wähle einen Server aus. Alternativ kann auch einen benutzerdefinierten Server angeben werden.]]></item>
-		<item name="wcf.acp.option.mibbit_settingsid.description"><![CDATA[Hier kannst du die id deiner Einstellungen bei Mibbit eintragen um das Aussehen des Chats zu individualisieren.<br />Um eine Settings ID zu erhalten registrierst du dich bei http://widget.mibbit.com/manager/ und schaust in den Einstellungen nach der ID.]]></item>
+		<item name="wcf.acp.option.module_user_mibbit"><![CDATA[Mibbit IRC Chat Integration]]></item>
+		<item name="wcf.acp.option.module_user_mibbit.description"><![CDATA[Aktiviert die Mibbit IRC Chat Integration.]]></item>
 	</category>
 </language>

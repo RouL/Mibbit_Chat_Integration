@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTDs/language.dtd">
 <!-- SVN-ID: $Id$ -->
-<language languagecode="en">
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="en">
 	<!-- ACP -->
 	<category name="wcf.acp.option">
 		<item name="wcf.acp.option.category.mibbit"><![CDATA[Mibbit Chat]]></item>
@@ -10,6 +9,8 @@
 		<item name="wcf.acp.option.category.mibbit.connection.description"><![CDATA[]]></item>
 		<item name="wcf.acp.option.category.mibbit.appearance"><![CDATA[Appearance]]></item>
 		<item name="wcf.acp.option.category.mibbit.appearance.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.module_user_mibbit"><![CDATA[Mibbit IRC Chat Integration]]></item>
+		<item name="wcf.acp.option.module_user_mibbit.description"><![CDATA[Enables the Mibbit IRC Chat Integration]]></item>
 		<item name="wcf.acp.option.mibbit_authmethod"><![CDATA[Authentication Method]]></item>
 		<item name="wcf.acp.option.mibbit_authmethod.description"><![CDATA[If the user has to authenticate at the server (ie. at a nickserv) you can choose the method here. Don't forget to activate "Ask for password" in this case.]]></item>
 		<item name="wcf.acp.option.mibbit_authmethod.nickserv"><![CDATA[Nickserv]]></item>

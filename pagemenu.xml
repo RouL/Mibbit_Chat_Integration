@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/headerMenu.dtd">
+<data>	
+	<import>
+		<pagemenuitem name="wcf.header.menu.mibbitChat">
+			<iconmedium>mibbitChatM.png</iconmedium>
+			<iconsmall>mibbitChatS.png</iconsmall>
+			<link>index.php?page=MibbitChat</link>
+			<options>module_user_mibbit</options>
+		</pagemenuitem>
+	</import>
+</data>

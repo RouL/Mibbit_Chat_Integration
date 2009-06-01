@@ -4,10 +4,12 @@ require_once(WCF_DIR.'lib/page/AbstractPage.class.php');
 /**
  * Wraps the Mibbit IRC Chat page.
  * 
- * @author		Markus Bartz <roul@codingcorner.info>
- * @copyright	2008 Markus Bartz
- * @license		GNU Lesser General Public License <http://opensource.org/licenses/lgpl-license.php>
+ * @author		Markus Bartz
+ * @copyright	2009 RouLs Coding Corner
+ * @license		GNU Lesser General Public License <http://www.gnu.org/licenses/lgpl.html>
  * @package		info.codingcorner.wcf.mibbit
+ * @subpackage	page
+ * @category 	Mibbit IRC Chat Integration
  */
 class MibbitChatPage extends AbstractPage {
 	public	$templateName = 'mibbitPage';
@@ -158,6 +160,14 @@ class MibbitChatPage extends AbstractPage {
 		' ', ',', ';', '.', ':', '§', '$', '%', '&', '#', '/', '\\', '\'', '"', '°', '?', '(', ')', '`', '´', '*',
 		'+', '~', '=', '@', '²', '³', 'µ'
 	);
+	
+	public function __construct() {
+		if (!MODULE_USER_MIBBIT) {
+			throw new IllegalLinkException();
+		}
+		
+		parent::__construct();
+	}
 	
 	/**
 	 * @see Page::readParameters()
