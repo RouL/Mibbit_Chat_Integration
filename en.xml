@@ -27,6 +27,9 @@
 		<item name="wcf.acp.option.mibbit_guestnick.description"><![CDATA[You can choose a pattern for guestnicks. The pattern must contain one or more '?'. Mibbit will replace the '?' with random chars and numbers, so that there are no naming conflicts, if there are many guests.<br />If you leave this blank Mibbit will use the following pattern: "mib_??????"]]></item>
 		<item name="wcf.acp.option.mibbit_height"><![CDATA[Height]]></item>
 		<item name="wcf.acp.option.mibbit_height.description"><![CDATA[Here you can set the chats height (pixel).]]></item>
+		<item name="wcf.acp.option.mibbit_nickprefix"><![CDATA[Nick prefix]]></item>
+		<item name="wcf.acp.option.mibbit_nickprefix.description"><![CDATA[You can set a prefix that will be prepended to the nick of registered forum users.<br />
+<div class="info">Only use Characters that are valid in IRC. A single prepending _ is not possible.</div>]]></item>
 		<item name="wcf.acp.option.mibbit_promptpass"><![CDATA[Ask for password]]></item>
 		<item name="wcf.acp.option.mibbit_promptpass.description"><![CDATA[Should Mibbit ask for a password for authentication with the server? (see also "Authentication Method")]]></item>
 		<item name="wcf.acp.option.mibbit_server"><![CDATA[Custom server]]></item>

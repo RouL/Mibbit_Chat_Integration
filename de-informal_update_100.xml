@@ -6,5 +6,7 @@
 		<item name="wcf.acp.option.mibbit_nickprefix"><![CDATA[Nick Präfix]]></item>
 		<item name="wcf.acp.option.mibbit_nickprefix.description"><![CDATA[Du kannst hier einen Präfix angeben der vor den Nick von registrierten Forumnutzern gehängt wird.<br />
 <div class="info">Nur Zeichen verwenden die im IRC zulässig sind. Ein alleinstehendes _ am Anfang ist ebenfalls nicht zulässig.</div>]]></item>
+		<item name="wcf.acp.option.module_user_mibbit"><![CDATA[Mibbit IRC Chat Integration]]></item>
+		<item name="wcf.acp.option.module_user_mibbit.description"><![CDATA[Aktiviert die Mibbit IRC Chat Integration.]]></item>
 	</category>
 </language>

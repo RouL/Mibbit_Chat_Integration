@@ -24,9 +24,12 @@
 		<item name="wcf.acp.option.mibbit_charset.auto"><![CDATA[Automatisch]]></item>
 		<item name="wcf.acp.option.mibbit_charset.description"><![CDATA[Sollten sie Probleme mit der automatisch bestimmten Zeichenkodierung haben oder eine bestimmte Zeichenkodierung wollen, können sie hier eine Zeichenkodierung angeben. Bei "Automatisch" wird die Zeichenkodierung des WCF genommen.]]></item>
 		<item name="wcf.acp.option.mibbit_guestnick"><![CDATA[Gastnick]]></item>
+		<item name="wcf.acp.option.mibbit_guestnick.description"><![CDATA[Hier können sie ein Muster für Gastnicks angeben. Das Muster muss dabei irgendwo ein oder mehrere '?' enthalten, welche automatisch von Mibbit mit Buchstaben und Zahlen ersetzt werden, damit es bei mehreren Gästen nicht zu Namenskonflikten kommt.<br />Wenn das Feld leer gelassen wird werden die Gastnicks nach folgendem Muster von Mibbit erstellt: "mib_??????"]]></item>
 		<item name="wcf.acp.option.mibbit_height"><![CDATA[Höhe]]></item>
 		<item name="wcf.acp.option.mibbit_height.description"><![CDATA[Geben sie hier die gewünschte Höhe des Chats in Pixeln an.]]></item>
-		<item name="wcf.acp.option.mibbit_guestnick.description"><![CDATA[Hier können sie ein Muster für Gastnicks angeben. Das Muster muss dabei irgendwo ein oder mehrere '?' enthalten, welche automatisch von Mibbit mit Buchstaben und Zahlen ersetzt werden, damit es bei mehreren Gästen nicht zu Namenskonflikten kommt.<br />Wenn das Feld leer gelassen wird werden die Gastnicks nach folgendem Muster von Mibbit erstellt: "mib_??????"]]></item>
+		<item name="wcf.acp.option.mibbit_nickprefix"><![CDATA[Nick Präfix]]></item>
+		<item name="wcf.acp.option.mibbit_nickprefix.description"><![CDATA[Sie können hier einen Präfix angeben der vor den Nick von registrierten Forumnutzern gehängt wird.<br />
+<div class="info">Nur Zeichen verwenden die im IRC zulässig sind. Ein alleinstehendes _ am Anfang ist ebenfalls nicht zulässig.</div>]]></item>
 		<item name="wcf.acp.option.mibbit_promptpass"><![CDATA[Nach Passwort fragen]]></item>
 		<item name="wcf.acp.option.mibbit_promptpass.description"><![CDATA[Soll nach einem Passwort gefragt werden, mit dem sich am Server angemeldet wird? (Siehe "Anmeldemethode")]]></item>
 		<item name="wcf.acp.option.mibbit_server"><![CDATA[Benutzerdefinierter Server]]></item>
