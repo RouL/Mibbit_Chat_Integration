@@ -5,7 +5,7 @@
 		<packagename>Mibbit Chat Integration</packagename>
 		<packageurl>http://codingcorner.info/projekte/wcf/mibbit-irc-chat-integration/</packageurl>
 		<version>1.1.0 Beta 2</version>
-		<date>2009-07-29</date>
+		<date>2009-08-08</date>
 		<plugin>com.woltlab.wcf.data.page.headerMenu</plugin>
 	</packageinformation>
 
