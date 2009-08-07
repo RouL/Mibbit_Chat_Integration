@@ -9,6 +9,11 @@
 				<defaultvalue></defaultvalue>
 				<showorder>4</showorder>
 			</option>
+			<option name="module_user_mibbit">
+				<categoryname>module.user</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
 		</options>
 	</import>
 </data>
