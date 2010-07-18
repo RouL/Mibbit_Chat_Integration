@@ -37,14 +37,14 @@
 				<selectoptions><![CDATA[nickserv:wcf.acp.option.mibbit_authmethod.nickserv
 pass:wcf.acp.option.mibbit_authmethod.pass]]></selectoptions>
 				<defaultvalue>nickserv</defaultvalue>
-				<showorder>7</showorder>
+				<showorder>8</showorder>
 			</option>
 
 			<option name="mibbit_autoconnect">
 				<categoryname>mibbit.connection</categoryname>
 				<optiontype>boolean</optiontype>
 				<defaultvalue>0</defaultvalue>
-				<showorder>5</showorder>
+				<showorder>6</showorder>
 			</option>
 
 			<option name="mibbit_channels">
@@ -82,13 +82,20 @@ windows-1256
 windows-1257
 windows-1258]]></selectoptions>
 				<defaultvalue>auto</defaultvalue>
-				<showorder>6</showorder>
+				<showorder>7</showorder>
 			</option>
 
 			<option name="mibbit_guestnick">
 				<categoryname>mibbit.connection</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue>mibbit_????</defaultvalue>
+				<showorder>5</showorder>
+			</option>
+			
+			<option name="mibbit_nickprefix">
+				<categoryname>mibbit.connection</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue></defaultvalue>
 				<showorder>4</showorder>
 			</option>
 
@@ -96,7 +103,7 @@ windows-1258]]></selectoptions>
 				<categoryname>mibbit.connection</categoryname>
 				<optiontype>boolean</optiontype>
 				<defaultvalue>0</defaultvalue>
-				<showorder>8</showorder>
+				<showorder>9</showorder>
 			</option>
 
 			<option name="mibbit_server">

@@ -194,8 +194,17 @@ class MibbitChatPage extends AbstractPage {
 		
 		// Nick
 		if (WCF::getUser()->userID != 0) {
+			// prefix nick if prefix is given
+			if (MIBBIT_NICKPREFIX != "") {
+				// we do this before romanizing the name, so we can catch some "adminerrors" ;)
+				$username = MIBBIT_NICKPREFIX . WCF::getUser()->username;
+			}
+			else {
+				$username = WCF::getUser()->username;
+			}
+			
 			// normalize nick for IRC
-			$nick = $this->romanize(WCF::getUser()->username);
+			$nick = $this->romanize($username);
 			$nick = str_replace($this->replace_table, '_', $nick);
 			$nick = preg_replace(array('!^_!', '!_$!', '!__+!'), array('', '', '_'), $nick);
 			$this->mibbit_url .= "&nick=".rawurlencode($nick);

@@ -6,5 +6,7 @@
 		<item name="wcf.acp.option.mibbit_nickprefix"><![CDATA[Nick prefix]]></item>
 		<item name="wcf.acp.option.mibbit_nickprefix.description"><![CDATA[You can set a prefix that will be prepended to the nick of registered forum users.<br />
 <div class="info">Only use Characters that are valid in IRC. A single prepending _ is not possible.</div>]]></item>
+		<item name="wcf.acp.option.module_user_mibbit"><![CDATA[Mibbit IRC Chat Integration]]></item>
+		<item name="wcf.acp.option.module_user_mibbit.description"><![CDATA[Enables the Mibbit IRC Chat Integration]]></item>
 	</category>
 </language>
