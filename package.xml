@@ -4,8 +4,8 @@
 	<packageinformation>
 		<packagename>Mibbit Chat Integration</packagename>
 		<packageurl>http://codingcorner.info/projekte/wcf/mibbit-irc-chat-integration/</packageurl>
-		<version>1.1.0 Beta 2</version>
-		<date>2009-08-08</date>
+		<version>1.1.0</version>
+		<date>2010-07-18</date>
 		<plugin>com.woltlab.wcf.data.page.headerMenu</plugin>
 	</packageinformation>
 
@@ -34,6 +34,11 @@
 		<languages languagecode="de">de_update.xml</languages>
 		<languages languagecode="de-informal">de-informal_update.xml</languages>
 		<languages languagecode="en">en_update.xml</languages>
+	</instructions>
+
+	<instructions type="update" fromversion="1.1.0 Beta 2">
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
 	</instructions>
 
 	<instructions type="install">
