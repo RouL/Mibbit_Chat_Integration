@@ -3,7 +3,6 @@
 <package name="info.codingcorner.wcf.mibbit" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/package.xsd">
 	<packageinformation>
 		<packagename>Mibbit Chat Integration</packagename>
-		<packageurl>http://codingcorner.info/projekte/wcf/mibbit-irc-chat-integration/</packageurl>
 		<version>1.1.1</version>
 		<date>2011-06-10</date>
 		<plugin>com.woltlab.wcf.data.page.headerMenu</plugin>
