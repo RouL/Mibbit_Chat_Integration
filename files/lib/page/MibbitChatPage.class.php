@@ -12,8 +12,11 @@ require_once(WCF_DIR.'lib/page/AbstractPage.class.php');
  * @category 	Mibbit IRC Chat Integration
  */
 class MibbitChatPage extends AbstractPage {
+	const MIBBIT_HTTP = 'http://widget.mibbit.com/';
+	const MIBBIT_HTTPS = 'https://widget.mibbit.com/';
+	
 	public	$templateName = 'mibbitPage';
-	public	$mibbit_url = 'http://widget.mibbit.com/';
+	public	$mibbit_url = '';
 	public	$chat_height = MIBBIT_HEIGHT;
 	private	$romanize_table = array(
 		// Lower accents
@@ -174,6 +177,14 @@ class MibbitChatPage extends AbstractPage {
 	 */
 	public function readParameters() {
 		parent::readParameters();
+		
+		// http/-s + mibbit-URL
+		if (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') {
+			$this->mibbit_url = self::MIBBIT_HTTPS;
+		}
+		else {
+			$this->mibbit_url = self::MIBBIT_HTTP;
+		}
 		
 		// Server
 		if (MIBBIT_SERVER_SELECT == "custom") {
