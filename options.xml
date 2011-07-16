@@ -2,7 +2,9 @@
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/options.xsd">
 	<import>
 		<categories>
-			<category name="mibbit"></category>
+			<category name="mibbit">
+				<parent>message</parent>
+			</category>
 
 			<category name="mibbit.connection">
 				<parent>mibbit</parent>
