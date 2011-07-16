@@ -2,7 +2,7 @@
 <package name="info.codingcorner.wcf.mibbit" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/package.xsd">
 	<packageinformation>
 		<packagename>Mibbit Chat Integration</packagename>
-		<version>1.1.1</version>
+		<version>1.1.2</version>
 		<date>2011-06-10</date>
 		<plugin>com.woltlab.wcf.data.page.headerMenu</plugin>
 	</packageinformation>
@@ -29,7 +29,7 @@
 
 	<instructions type="update" fromversion="1.1.0 Beta 1">
 		<files>files.tar</files>
-		<options>options_update.xml</options>
+		<options>options_update_110b1.xml</options>
 		<languages languagecode="de">de_update.xml</languages>
 		<languages languagecode="de-informal">de-informal_update.xml</languages>
 		<languages languagecode="en">en_update.xml</languages>
@@ -38,14 +38,20 @@
 
 	<instructions type="update" fromversion="1.1.0 Beta 2">
 		<files>files.tar</files>
+		<options>options_update.xml</options>
 		<templates>templates.tar</templates>
 		<languages languagecode="it">it.xml</languages>
 	</instructions>
 
 	<instructions type="update" fromversion="1.1.0">
 		<files>files.tar</files>
+		<options>options_update.xml</options>
 		<templates>templates.tar</templates>
 		<languages languagecode="it">it.xml</languages>
+	</instructions>
+	
+	<instructions type="update" fromversion="1.1.1">
+		<options>options_update.xml</options>
 	</instructions>
 
 	<instructions type="install">
