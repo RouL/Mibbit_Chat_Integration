@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/language.xsd" languagecode="it">
+	<!-- ACP -->
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.mibbit"><![CDATA[Mibbit Chat]]></item>
+		<item name="wcf.acp.option.category.mibbit.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.mibbit.connection"><![CDATA[Connessione]]></item>
+		<item name="wcf.acp.option.category.mibbit.connection.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.mibbit.appearance"><![CDATA[Aspetto]]></item>
+		<item name="wcf.acp.option.category.mibbit.appearance.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.module_user_mibbit"><![CDATA[Integrazione con la chat IRC Mibbit]]></item>
+		<item name="wcf.acp.option.module_user_mibbit.description"><![CDATA[Abilita l'integrazione con la chat IRC Mibbit]]></item>
+		<item name="wcf.acp.option.mibbit_authmethod"><![CDATA[Metodo di autenticazione]]></item>
+		<item name="wcf.acp.option.mibbit_authmethod.description"><![CDATA[Se l'utente deve autenticarsi con il server (es. ad un nickserv) potete scegliere il metodo qui. Non dimenticate di attivare la "Richiesta password" in questo caso.]]></item>
+		<item name="wcf.acp.option.mibbit_authmethod.nickserv"><![CDATA[Nickserv]]></item>
+		<item name="wcf.acp.option.mibbit_authmethod.pass"><![CDATA[Password server (/pass)]]></item>
+		<item name="wcf.acp.option.mibbit_autoconnect"><![CDATA[Connessione automatica]]></item>
+		<item name="wcf.acp.option.mibbit_autoconnect.description"><![CDATA[Volete che la chat si connetta direttamente al server o che sia mostrato prima un campo per digitare il nickname?<br />
+<div class="info">Se volete usare la funzionalit&agrave; di connessione automatica dovete prima entrare nel canale da mibbit e digitare il comando "/autoconnect on" con i privilegi di operatore.</div>]]></item>
+		<item name="wcf.acp.option.mibbit_channels"><![CDATA[Canali]]></item>
+		<item name="wcf.acp.option.mibbit_channels.description"><![CDATA[Ingresso automatico ai canali ai quali si dovrebbe accedere una volta entrati in chat.]]></item>
+		<item name="wcf.acp.option.mibbit_charset"><![CDATA[Set di caratteri]]></item>
+		<item name="wcf.acp.option.mibbit_charset.auto"><![CDATA[automatico]]></item>
+		<item name="wcf.acp.option.mibbit_charset.description"><![CDATA[Se avete problemi con il set di caratteri scelto automaticamente, o necessitate di uno specifico, potete selezionarlo qui. Lasciando l'opzione su "automatico" verr&agrave; selezionato il set di caratteri del WCF.]]></item>
+		<item name="wcf.acp.option.mibbit_guestnick"><![CDATA[Nick ospiti]]></item>
+		<item name="wcf.acp.option.mibbit_guestnick.description"><![CDATA[Potete scegliere un pattern per il nick degli ospiti. Il pattern deve contenere uno o pi&ugrave; '?'. Mibbit rimpiazzer&agrave; i '?' con lettere e numeri casuali, cos%igrave; non ci saranno nick in conflitto nel caso di pi&ugrave; ospiti.<br />Lasciando vuoto questo campo Mibbit user&agrave; il seguente pattern: "mib_??????"]]></item>
+		<item name="wcf.acp.option.mibbit_height"><![CDATA[Altezza]]></item>
+		<item name="wcf.acp.option.mibbit_height.description"><![CDATA[L'altezza della chat (in pixel).]]></item>
+		<item name="wcf.acp.option.mibbit_nickprefix"><![CDATA[Prefisso nick]]></item>
+		<item name="wcf.acp.option.mibbit_nickprefix.description"><![CDATA[Qui potete selezionare un prefisso che sar&agrave; aggiunto al nick degli utenti registrati al forum.<br />
+<div class="info">Si possono usare solo caratteri validi in IRC. Prefissi che iniziano con un solo _ non sono possibili.</div>]]></item>
+		<item name="wcf.acp.option.mibbit_promptpass"><![CDATA[Richiesta password]]></item>
+		<item name="wcf.acp.option.mibbit_promptpass.description"><![CDATA[Si vuole che Mibbit richieda la password di autenticazione al server? (si veda anche "Metodo di autenticazione")]]></item>
+		<item name="wcf.acp.option.mibbit_server"><![CDATA[Server predefinito]]></item>
+		<item name="wcf.acp.option.mibbit_server.description"><![CDATA[Inserite gli indirizzi dei server nella seguente forma: &lt;dominio/ip&gt;[:porta] Se non inserite nessuna porta sar&agrave; usata quella standard: 6667.<br />Esempio "webirc.gamesurge.net:6007" o "irc.undernet.org"]]></item>
+		<item name="wcf.acp.option.mibbit_server_select"><![CDATA[Server]]></item>
+		<item name="wcf.acp.option.mibbit_server_select.custom"><![CDATA[Server predefinito]]></item>
+		<item name="wcf.acp.option.mibbit_server_select.description"><![CDATA[Scegliete un server. Potete anche usarne uno predefinito.]]></item>
+		<item name="wcf.acp.option.mibbit_showmotd"><![CDATA[Mostrare MOTD]]></item>
+		<item name="wcf.acp.option.mibbit_showmotd.description"><![CDATA[Volete che il MOTD (Messaggio del giorno) del server sia mostrato alla connessione?]]></item>
+		<item name="wcf.acp.option.mibbit_showservernotices"><![CDATA[Mostrare le note del server]]></item>
+		<item name="wcf.acp.option.mibbit_showservernotices.description"><![CDATA[Volete che le note del server siano mostrate?]]></item>
+		<item name="wcf.acp.option.mibbit_showservertab"><![CDATA[Mostrare la scheda del server]]></item>
+		<item name="wcf.acp.option.mibbit_showservertab.description"><![CDATA[Volete che la scheda del server sia mostrata? Essa contiene i messaggi del server.]]></item>
+		<item name="wcf.acp.option.mibbit_debug"><![CDATA[Mostrare i log di debug]]></item>
+		<item name="wcf.acp.option.mibbit_debug.description"><![CDATA[Volete che i log di debug siano mostrati?<br />
+<div class="warning">Raccomandato solo per finalit&agrave; di debugging.</div>]]></item>
+		<item name="wcf.acp.option.mibbit_loadingmessage"><![CDATA[Messaggio di caricamento]]></item>
+		<item name="wcf.acp.option.mibbit_loadingmessage.description"><![CDATA[Qui potete definire un messaggio di caricamento personalizzato. Le variabili di linguaggio sono supportate.]]></item>
+		<item name="wcf.acp.option.mibbit_settingsid"><![CDATA[ID di configurazione]]></item>
+		<item name="wcf.acp.option.mibbit_settingsid.description"><![CDATA[Qui potete inserire il vostro ID di configurazione Mibbit per personalizzare la chat.<br />Per ottenere un ID di configurazione dovete registrarvi a Mibbit http://widget.mibbit.com/manager/ e cercare il vostro id nella pagina delle preferenze.]]></item>
+		<item name="wcf.acp.option.mibbit_welcomemessage"><![CDATA[Messaggio di benvenuto]]></item>
+		<item name="wcf.acp.option.mibbit_welcomemessage.description"><![CDATA[Qui potete definire un messaggio di benvenuto personalizzato. Le variabili di linguaggio sono supportate.<br />
+<div class="info">Abilitare questa opzione non ha alcun senso se avete abilitato la "Connessione automatica".</div>]]></item>
+	</category>
+	
+	<!-- USER -->
+	<category name="wcf.mibbit">
+		<item name="wcf.mibbit.title"><![CDATA[Chat]]></item>
+		<item name="wcf.mibbit.location"><![CDATA[<a href="index.php?page=MibbitChat">Chat</a>]]></item>
+	</category>
+	
+	<category name="wcf.header.menu">
+		<item name="wcf.header.menu.mibbitChat"><![CDATA[Chat]]></item>
+	</category>
+</language>
