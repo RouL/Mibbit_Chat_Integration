@@ -3,7 +3,7 @@
 	<packageinformation>
 		<packagename>Mibbit Chat Integration</packagename>
 		<version>1.1.2</version>
-		<date>2011-06-10</date>
+		<date>2011-07-19</date>
 		<plugin>com.woltlab.wcf.data.page.headerMenu</plugin>
 	</packageinformation>
 
