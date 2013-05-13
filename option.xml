@@ -111,146 +111,203 @@ windows-1258]]></selectoptions>
 			<option name="mibbit_server_select">
 				<categoryname>mibbit.connection</categoryname>
 				<optiontype>select</optiontype>
-				<!-- TODO: Update list with current mibbit serverlist (some are not supported anymore) -->
-				<selectoptions><![CDATA[custom:wcf.acp.option.mibbit_server_select.custom
-irc.mibbit.com:Mibbit webirc
-irc.abjects.net:Abjects
-irc.accessirc.net:AccessIRC webirc
-irc.aceirc.org:AceIRC
-irc.afterx.net:AfterX webirc
-irc.afternet.org:Afternet webirc
-irc.agroome.com:Agroome webirc
-irc.anidistro.net:Anidistro webirc
-irc.anirc.net:Anirc webirc
-irc.anope.org:Anope webirc
-irc.anthrochat.net:Anthrochat webirc
-irc.appliedirc.com:AppliedIRC webirc
-irc.arg-irc.net:Arg-IRC webirc
-irc.atrum.org:Atrum webirc
-irc.austchat.net:AustChat
-mibbit.austirc.net:AustIRC webirc
-irc.barafranca.com:Barafranca webirc
-eu.beirut.com:Beirut webirc
-irc.bergnetworks.com:BergNetworks webirc
-im.bitlbee.org:Bitlbee
-irc.bitsjointirc.net:BitsJointIRC webirc
-us.blabber.net:BlabberNET webirc
+				<selectoptions><![CDATA[irc.mibbit.net:Mibbit [webirc]
+Irc.420-HighTimes.com:420-HighTimes [webirc]
+irc.6irc.net:6IRCNet [webirc]
+irc.AccessIRC.Net:AccessIRC [webirc]
+elara.ivixor.net:AFNet [webirc]
+irc.after-all.org:After-All [webirc]
+irc.afternet.org:Afternet [webirc]
+irc.afterx.net:AfterX [webirc]
+irc.alphachat.net:AlphaChat [webirc]
+irc.anonnet.org:AnonNet [webirc]
+irc.anonops.com:AnonOps [webirc]
+irc.AnthroChat.net:Anthrochat [webirc]
+cthulhu.arg-irc.net:Arg-IRC [webirc]
+irc.arloria.net:ArloriaNET [webirc]
+irc.aseriesoftubez.com:ASOTnet [webirc]
+irc.asylo.com:AsyloIRC [webirc]
+irc.atrum.org:Atrum [webirc]
+irc.austnet.org:AustNET
+mibbit.irc.azzurra.org:Azzurra [webirc]
+irc.badnik.net:BadnikNET [webirc]
+irc.bakashimoe.me:BakaShiMoe [webirc]
+IRC.BananaIRC.net:BananaIRC [webirc]
+irc.barafranca.com:Barafranca [webirc]
+irc.Beirut.Com:Beirut [webirc]
+irc.binhex.org:Binhex [webirc]
+bitlbee.mibbit.org:BitlBee gateway
+irc.bitsjointirc.net:BitsJoint-IRC [webirc]
 irc.blitzed.org:Blitzed
-irc.boomerirc.net:BoomerIRC webirc
-irc.centralchat.net:CentralChat webirc
-irc.chat4all.net:Chat4all webirc
-irc.chatnet.org:ChatNet webirc
-bliss.chatx.net:ChatX
-irc.coldfront.net:ColdFront webirc
-irc.conflictirc.net:ConflictIRC webirc
-irc.criticalsecurity.net:CriticalSecurity webirc
-irc.dal.net:DAL
-irc.dark-shade.net:Dark-shade webirc
-mibbit.darkmyst.org:DarkMyst
-irc.darkscience.ws:DarkScience webirc
-irc.deathwyrm.net:DeathWyrm webirc
-irc.dereferenced.org:Dereferenced webirc
-irc.devhat.net:DevHat webirc
-irc.devilsfreek.org:DevilsFreek webirc
-irc.diasporagames.com:Diasporagames webirc
-irc.digitaldystopia.net:DigitalDystopia webirc
-irc.drivenirc.com:DrivenIRC webirc
-irc.dynastynet.net:Dynastynet webirc
-irc.ecnet.org:ECNET webirc
-irc.efnet.net:EFNET
-irc.euirc.net:EUIRC
-irc.epic-chat.net:Epic-chat webirc
-irc.esper.net:Esper webirc
-irc.exilenet.org:Exilenet webirc
-ircd.eyearesee.org:Eyearesee webirc
-web.fantasya.org:Fantasya webirc
+irc.caffie.net:CaffieNet [webirc]
+irc.centralchat.net:CentralChat [webirc]
+Faceman.Chaoz-IRC.netirc.chaoz-irc.net:Chaoz [webirc]
+irc.chat.be:Chat.be - Chat Happens! [webirc]
+irc.chat4all.net:Chat4all [webirc]
+irc.chatmania.ch!7000:Chatmania [webirc]
+irc.chatnet.org:ChatNet [webirc]
+irc.chattingaway.com:ChattingAway [webirc]
+irc.squishsoftware.com:ChronicDevIRC [webirc]
+Irc-CiudadFutura.org:CiudadFutura [webirc]
+irc.ClueNET.org:ClueNet [webirc]
+irc.coldfront.net:ColdFront [webirc]
+irc.coolsmile.net:Coolsmile [webirc]
+irc.cubachat.org:CubaChat [webirc]
+irc.cyanide-x.net:Cyanide-x [webirc]
+halcyon.dal.net:DALnet [webirc]
+irc.darchoods.net:DarcHoods [webirc]
+mibbit.darkmyst.org:DarkMyst [webirc]
+irc.DatNode.net:DatNode [webirc]
+irc.dynastynet.net:Dynastynet [webirc]
+irc.echo34.com:Echo34 [webirc]
+irc.ecnet.org:ECNet [webirc]
+irc.umich.edu:EFNET [webirc]
+mibbit.epiknet.org!6662:EpiKnet [webirc]
+irc.esper.net:Esper [webirc]
+irc.estchat.ee:EstIRC [webirc]
+irc.europa-irc.de:Europa-IRC [webirc]
+irc.EuropNet.org:EuropNet [webirc]
+irc.evility.net:Evility
+Irc.FacebookIRC.Net:FacebookIRC [webirc]
+irc.us.fansub-irc.eu:Fansub-IRC [webirc]
+irc.fdfnet.net:FDFNet [webirc]
+irc.fef.net:FEFnet [webirc]
+irc.fewona.net:Fewona [webirc]
+irc.FireWirez.net:FirewirezNet [webirc]
 irc.foonetic.net:Foonetic
-irc.freenode.net:Freenode
-irc.fusionchat.org:FusionChat
-irc.gtanet.com:GTANET webirc
-irc.galaxynet.us:GalaxyNET
-webirc.gamesurge.net!6007:GameSurge webirc
-irc.gigacrew.net:GigaCrew webirc
+irc.fr3d.org:Fr3d [webirc]
+irc.furryland.net:FurryLand [webirc]
+irc.GalaxyNet.org:GalaxyNET
+irc.gamergalaxy.net:GamerGalaxy [webirc]
+irc.web.gamesurge.net:GameSurge [webirc]
+irc.GeekShed.net:GeekShed [webirc]
 irc.gimp.org:Gimp
-irc.globalgamers.net:GlobalGamers webirc
-irc.greggaz.com:Greggaz webirc
-irc.hackthissite.org:HackThisSite webirc
-irc.irchighway.net:IRCHighway
-us.ircnet.org:IRCNET
-irc.ircstorm.net:IRCStorm webirc
-irc.itechnet.info:ITechNet webirc
-irc.immortal-anime.net:Immortal-anime webirc
-irc.ipocalypse.net:Ipocalypse webirc
-irc.jaundies.com:Jaundies webirc
-irc.justin.tv:JustinTV
-lithium.kwaaknet.org:Kwaaknet webirc
-irc.leapnode.net:LeapNode webirc
-irc.lucidchat.net:LucidChat webirc
-irc.lunarnet.org:LunarNet
-irc.mixxnet.net:MIXXnet webirc
-irc.maddshark.net:MaddShark
-irc.mafiacrime.org:MafiaCrime
-irc.magicstar.net:MagicStar webirc
-irc.meganet.us:Meganet webirc
-irc.microswift.com:MicroSwift webirc
-irc.mintirc.net:MintIRC webirc
-irc.moofspeak.net:MoofSpeak webirc
-irc.mostlynothing.info:MostlyNothing webirc
-irc.mozilla.org:Mozilla webirc
-irc.mozor.net:Mozor
+irc.globalgamers.net:GlobalGamers [webirc]
+irc.globalirc.it:GlobalIRC.it [webirc]
+irc.griefplay.net:GriefPlay [webirc]
+irc.gtanet.com:GTANET [webirc]
+irc.hackthissite.org:HackThisSite [webirc]
+irc.hyperiums.info:Hyperiums [webirc]
+irc.immortal-anime.net:Immortal-anime [webirc]
+irc.imperium.ca:Imperium [webirc]
+irc.industrialirc.us:IndustrialIRC [webirc]
+irc.infinityirc.com:Infinity IRC [webirc]
+mibbit.inframonde.org:InfraMonde [webirc]
+irc.innerirc.net:InnerIRC [webirc]
+irc-mibbit.inside-irc.net:Inside-IRC [webirc]
+irc.ipocalypse.net:iPocalypse [webirc]
+irc.irc2.hu:IRC2.HU [webirc]
+irc.ircchat.nl:IRCChat [webirc]
+irc.chaters.ru!6688:IrcCity [webirc]
+mibbit.ircgate.it:IRCGate.it [webirc]
+mibbit.irchighway.net:IRCHighWay [webirc]
+webirc.ircline.org:iRCLiNE [webirc]
+ircnet.eversible.com:IRCNET
+irc.ircplanet.eu:IRCPlanet [webirc]
+irc.ircstorm.net:IRCStorm [webirc]
+irc.ircworld.org:IRCWorld IRC Network [webirc]
+chat.ircforex.org!+6697:irc|forex [webirc]
+IRC.Islam-Chat.Org:Islam-Chat.Org [webirc]
+irc.iz-smart.net:iZ-smart [webirc]
+irc.Japoland.net:Japoland [webirc]
+irc.jaundies.com:Jaundies [webirc]
+irc.jc-mp.com:JC2-MPIrc [webirc]
+irc.kampungchat.org:KampungChat [webirc]
+irc.kbfail.net:KBFailNet [webirc]
+irc.KHclub.net:KhmerChat [webirc]
+irc.koach.com:Koach [webirc]
+irc.kottnet.net:KottNet [webirc]
+irc.langochat.net:LangoChat [webirc]
+irc.linuxfire.info!6668:LinuxFire [webirc]
+irc.lolibot.net:Lolibot [webirc]
+irc.lostsig.com:LostSignal [webirc]
+irc.lucidchat.net:LucidChat [webirc]
+irc.liberty-unleashed.co.uk:LUnet [webirc]
+maddshark.net:MaddShark [webirc]
+Gryphon.MagicStar.net:MagicStar [webirc]
+irc.megworld.co.uk:MegNet [webirc]
+irc.mixxnet.net:MIXXnet [webirc]
+irc.mmoirc.com:MMOIRC [webirc]
+irc.mozilla.org:Mozilla [webirc]
+irc.mycooldude.info:MyCooldude [webirc]
+irc.n0v4.com:n0v4 [webirc]
+irc.nanami.fr:NanamiIRC [webirc]
 irc.netgamers.org:NetGamers
+irc.newnet.net:NewNet [webirc]
 irc.nexuswar.com:NexusWar
-link.nintendofreaks.com:NintendoFreaks webirc
-irc.noodleninja.org:NoodleNinja webirc
-irc.oftc.net:OFTC
-irc.oceanius.com:Oceanius
-webirc.ogamenet.net!8060:OnlineGamesNet webirc
+webirc.nixtrixirc.net:NixtrixIRC [webirc]
+irc.noxether.net:Noxether [webirc]
+irc.ohinternet.com:OhInternet [webirc]
+JaBSnG.OnlineGamesNet.net:OnlineGamesNet [webirc]
 irc.opera.com:Opera
-irc.otherworlders.org:OtherWorlders
-irc.overfl0w.org:Overfl0w webirc
-irc.ptirc.com:PTIRC
-irc.paranoianet.com:ParanoiaNet webirc
-irc.peacemake.net:PeaceMake webirc
-irc.penguinfriends.org:PenguinFriends webirc
-irc.podnet.org:Podnet webirc
-irc.portal3.net:Portal3 webirc
-irc.purplesurge.com:PurpleSurge
-irc.quakenet.org:QuakeNET
-irc.rm-sanctum.net:RM-Sanctum webirc
-mibbit.rizon.net:Rizon webirc
-rbp.sgwirc.com:SGIRC webirc
-chat.stlhack.com:STLHack webirc
-irc.scarynet.org:ScaryNet webirc
-us.shadowfire.org:ShadowFire webirc
-chat.sinirc.net:SinIRC webirc
-irc.slacked.org:Slacked webirc
-irc.slashnet.org:SlashNET
-irc.solidirc.com:SolidIRC
-irc.sonicanime.net:SonicAnime webirc
-irc.sorcery.net:Sorcery
+irc.Otaku-IRC.fr:Otaku-IRC [webirc]
+irc.otherworlders.org:OtherWorlders [webirc]
+irc.p2pchat.net:P2PChat [webirc]
+irc.p2pirc.org:P2PIRC [webirc]
+irc.paradoxirc.net:ParadoxIRC [webirc]
+irc.penguinfriends.org:PenguinFriends [webirc]
+irc.phat-net.de:PhatNET [webirc]
+samu.pirc.pl:PIRC.pl [webirc]
+irc.pottsi.com:pottsi [webirc]
+irc.powanet.org:PowaneT [webirc]
+irc.ps3sanctuary.co.uk:Ps3sanctuary [webirc]
+irc.purplesurge.com:PurpleSurge [webirc]
+irc.rc6.org!+6697:RC6 [webirc]
+irc.sys.eti.br:RedeBrasil [webirc]
+rizon.mibbit.org:Rizon [webirc]
+irc.ScaryNet.Org:ScaryNet [webirc]
+chat.ScoutLink.net:ScoutLink [webirc]
+irc.seersirc.net:SeersIRC [webirc]
+irc.seraphimlabs.net:Seraphim [webirc]
+mibbit.serenia.net:Serenia [webirc]
+mibbit.ShadowFire.org:ShadowFire [webirc]
+irc.simosnap.it:simosnap [webirc]
+irc.slacked.org:Slacked [webirc]
+irc.slacknet.net:Slacknet [webirc]
+irc.slashnet.org:SlashNET [webirc]
+irc.snoonet.org:Snoonet [webirc]
+irc.solidirc.com:SolidIRC [webirc]
+irc.sorcery.net:Sorcery [webirc]
+irc.siradio.fm:Split Infinity Radio [webirc]
+irc.SplitNET.Org:SplitNET [webirc]
+irc.stormbit.net:StormBit [webirc]
 irc.stratics.com:Stratics
-webirc.swiftirc.net!5003:SwiftIRC webirc
-irc.synirc.net:SynIRC webirc
-irc.sysnode.org:SysNode webirc
-irc.taphouse.org:TapHouse webirc
-irc.techirc.org:TechIRC webirc
-embed.techtoknow.net:TechToKnow webirc
-irc.thinstack.net:ThinStack webirc
-66.186.59.50:UnderNET
-irc.v8d.org:V8d webirc
-irc.vbirc.com:VBIRC webirc
-irc.vortexirc.com:VortexIRC webirc
-irc.w3.org:W3 webirc
-irc.webchat.org:WebChat
-irc.webetalk.com:WebeTalk webirc
-cgiirc.wikkedwire.com:WikkedWire webirc
-irc.windfyre.net:WindFyre webirc
-irc.worldusers.net:WorldUsers
-irc.wyldryde.org:WyldRyde webirc
-irc.xchannel.org:XChannel
-irc.xnode.fr:Xnode webirc
-irc.youthfire.com:YouthFire webirc
-irc.ztecnet.net:ZTecNET webirc]]></selectoptions>
+mibbit.strictfp.com:StrictFP [webirc]
+irc.striked.org:Striked [webirc]
+webirc.swiftirc.net!5003:SwiftIRC [webirc]
+irc.SwissIRC.net:SwissIRC [webirc]
+irc.synirc.net:SynIRC [webirc]
+irc.taphouse.org:TapHouse [webirc]
+irc.tawx.net:tawx [webirc]
+irc.technoized.com:Technoized [webirc]
+irc.techtoknow.net:TechToKnow [webirc]
+irc.teranova.net:Teranova [webirc]
+irc.traviangames.org:TravianGames [webirc]
+irc.tweakers.net:Tweakers [webirc]
+irc.uirc.net:Uirc [webirc]
+anabolnet.org:UmbrellaNet [webirc]
+irc.Undernet.Org:UnderNET
+irc.linkbg.com:UniBG.eu [webirc]
+irc.universnet.org:UniversNet [webirc]
+irc.utonet.org:UtoNet [webirc]
+irc.vbirc.com:VBIRC [webirc]
+vgmix.com:VGMix [webirc]
+irc.vision-irc.net:ViSiON-iRC [webirc]
+irc.w3.org!6665:W3
+irc.webgamesnet.net:Web Games Net
+glass.webchat.org:WebChat
+irc.what-network.net:What-Network [webirc]
+irc.whatnet.org:WhatNET [webirc]
+cgiirc.wikkedwire.com:WikkedWire [webirc]
+irc.wildirc.net:WildIRC [webirc]
+irc.wtfux.org:WTFuxNet [webirc]
+irc.wug.za.net:WugNet [webirc]
+irc.WyldRyde.org:WyldRyde [webirc]
+irc.xerocreative.com:XeroCreative [webirc]
+irc.xeromem.com!6665:Xeromem [webirc]
+irc.xertion.org:Xertion [webirc]
+irc.zandronum.com:Zandronum [webirc]
+chat.zoite.net:Zoite [webirc]]]></selectoptions>
 				<defaultvalue>webirc.gamesurge.net!6007</defaultvalue>
 				<showorder>1</showorder>
 			</option>
