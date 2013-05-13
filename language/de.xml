@@ -58,6 +58,5 @@
 	<!-- USER -->
 	<category name="wcf.mibbit">
 		<item name="wcf.mibbit.mibbitChat"><![CDATA[Chat]]></item>
-		<item name="wcf.mibbit.location"><![CDATA[<a href="{link controller='MibbitChat'}{/link}">Chat</a>]]></item>
 	</category>
 </language>

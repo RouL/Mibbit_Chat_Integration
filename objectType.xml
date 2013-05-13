@@ -5,7 +5,7 @@
 			<name>info.codingcorner.wcf.mibbit.MibbitChatPage</name>
 			<definitionname>com.woltlab.wcf.user.online.location</definitionname>
 			<controller>wcf\page\MibbitChatPage</controller>
-			<languagevariable>wcf.mibbit.location</languagevariable>
+			<languagevariable>wcf.mibbit.mibbitChat</languagevariable>
 		</type>
 	</import>
 </data>
