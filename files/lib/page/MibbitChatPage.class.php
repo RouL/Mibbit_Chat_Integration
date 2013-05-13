@@ -1,5 +1,9 @@
 <?php
-require_once(WCF_DIR.'lib/page/AbstractPage.class.php');
+namespace wcf\page;
+use wcf\page\AbstractPage;
+use wcf\system\exception\IllegalLinkException;
+use wcf\system\WCF;
+use wcf\util\StringUtil;
 
 /**
  * Wraps the Mibbit IRC Chat page.
@@ -15,9 +19,20 @@ class MibbitChatPage extends AbstractPage {
 	const MIBBIT_HTTP = 'http://widget.mibbit.com/';
 	const MIBBIT_HTTPS = 'https://widget.mibbit.com/';
 	
-	public	$templateName = 'mibbitPage';
+	/**
+	 * @see wcf\page\AbstractPage::$activeMenuItem
+	 */
+	public $activeMenuItem = 'wcf.mibbit.mibbitChat';
+
+	/**
+	 * URL to the Mibbit widget
+	 */
 	public	$mibbit_url = '';
 	public	$chat_height = MIBBIT_HEIGHT;
+
+	/**
+	 * @see wcf\page\MibbitChatPage::romanize
+	 */
 	private	$romanize_table = array(
 		// Lower accents
 		'à'=>'a','ô'=>'o','ď'=>'d','ḟ'=>'f','ë'=>'e','š'=>'s','ơ'=>'o','ß'=>'ss','ă'=>'a','ř'=>'r',
@@ -220,7 +235,7 @@ class MibbitChatPage extends AbstractPage {
 			$nick = preg_replace(array('!^_!', '!_$!', '!__+!'), array('', '', '_'), $nick);
 			$this->mibbit_url .= "&nick=".rawurlencode($nick);
 		}
-		elseif (MIBBIT_GUESTNICK != "") {
+		else if (MIBBIT_GUESTNICK != "") {
 			$this->mibbit_url .= "&nick=".rawurlencode(MIBBIT_GUESTNICK);
 		}
 		
@@ -299,17 +314,6 @@ class MibbitChatPage extends AbstractPage {
 	}
 	
 	/**
-	 * @see Page::show()
-	 */
-	public function show() {
-		// set active header menu item
-		require_once(WCF_DIR.'lib/page/util/menu/HeaderMenu.class.php');
-		HeaderMenu::setActiveMenuItem('wcf.header.menu.mibbitChat');
-		
-		parent::show();
-	}
-	
-	/**
 	 * This function romanizes a given string.
 	 *
 	 * @param	string	$str
@@ -317,12 +321,11 @@ class MibbitChatPage extends AbstractPage {
 	 * This function and the property "$romanize_table" are based on mbstring.php from TYPOlight
 	 * written by Leo Feyer <leo@typolight.org> which is based upon the UTF-8 library written by
 	 * Andreas Gohr <andi@splitbrain.org> which is part of the DokuWiki project.
- 	 * 
- 	 * Visit http://www.splitbrain.org/projects/dokuwiki and http://www.typolight.org/ for the 
- 	 * original files.
+	 * 
+	 * Visit http://www.splitbrain.org/projects/dokuwiki and http://www.typolight.org/ for the 
+	 * original files.
 	 */
 	public function romanize($str) {
 		return strtr(StringUtil::convertEncoding(CHARSET, 'UTF-8', $str), $this->romanize_table);
 	}
 }
-?>
