@@ -16,18 +16,10 @@
 	</requiredpackages>
 	
 	<instructions type="install">
-		<files>files.tar</files>
-		<templates>templates.tar</templates>
-		<options>options.xml</options>
-		<pagemenu>pagemenu.xml</pagemenu>
-		<!--
-			If we have page locations package installed install page location.
-			Otherwise this line won't harm anything.
-		-->
-		<pagelocation>pagelocation.xml</pagelocation>
-		<languages languagecode="de">de.xml</languages>
-		<languages languagecode="de-informal">de-informal.xml</languages>
-		<languages languagecode="en">en.xml</languages>
-		<languages languagecode="it">it.xml</languages>
+		<instruction type="option">options.xml</instruction>
+		<instruction type="file">files.tar</instruction>
+		<instruction type="template">templates.tar</instruction>
+		<instruction type="language">language/*.xml</instruction>
+		<instruction type="pageMenu">pagemenu.xml</instruction>
 	</instructions>
 </package>
