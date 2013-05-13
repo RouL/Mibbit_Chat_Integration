@@ -1,6 +1,8 @@
 Mibbit Chat Integration
 =======================
 
+[![Build Status](https://travis-ci.org/RouL/Mibbit_Chat_Integration.png)](https://travis-ci.org/RouL/Mibbit_Chat_Integration)
+
 This WCF plugin integrates a Mibbit IRC chat widget into your applications.
 
 It will automatically use the username as nick in the chat for registered users. If the name contains chars that aren't allowed the plugin will replace them with allowed chars.
