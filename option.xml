@@ -45,7 +45,7 @@ pass:wcf.acp.option.mibbit_authmethod.pass]]></selectoptions>
 			<option name="mibbit_channels">
 				<categoryname>mibbit.connection</categoryname>
 				<optiontype>textarea</optiontype>
-				<defaultvalue>#roulcc</defaultvalue>
+				<defaultvalue>#Mibbit</defaultvalue>
 				<showorder>3</showorder>
 			</option>
 
@@ -308,7 +308,7 @@ irc.xeromem.com!6665:Xeromem [webirc]
 irc.xertion.org:Xertion [webirc]
 irc.zandronum.com:Zandronum [webirc]
 chat.zoite.net:Zoite [webirc]]]></selectoptions>
-				<defaultvalue>webirc.gamesurge.net!6007</defaultvalue>
+				<defaultvalue>irc.mibbit.net</defaultvalue>
 				<showorder>1</showorder>
 			</option>
 			<!-- /mibbit.connection -->
