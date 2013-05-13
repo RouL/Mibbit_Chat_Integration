@@ -2,6 +2,7 @@
 <package name="info.codingcorner.wcf.mibbit" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
 	<packageinformation>
 		<packagename>Mibbit Chat Integration</packagename>
+		<packagedescription>This WCF package integrates a Mibbit IRC chat widget into your applications.</packagedescription>
 		<version>2.0.0 Alpha 1</version>
 		<date>2013-05-13</date>
 	</packageinformation>
