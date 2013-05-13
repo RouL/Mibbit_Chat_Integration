@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0"?>
-<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/options.xsd">
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/option.xsd">
 	<import>
 		<categories>
 			<category name="mibbit">
@@ -117,6 +117,7 @@ windows-1258]]></selectoptions>
 			<option name="mibbit_server_select">
 				<categoryname>mibbit.connection</categoryname>
 				<optiontype>select</optiontype>
+				<!-- TODO: Update list with current mibbit serverlist (some are not supported anymore) -->
 				<selectoptions><![CDATA[custom:wcf.acp.option.mibbit_server_select.custom
 irc.mibbit.com:Mibbit webirc
 irc.abjects.net:Abjects
