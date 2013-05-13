@@ -51,7 +51,7 @@
 		<item name="wcf.acp.option.mibbit_settingsid.description"><![CDATA[Here you can enter your Mibbit settings ID for customizing the chat.<br />To get a settings ID you have to register with http://widget.mibbit.com/manager/ and look for your id at the preferences page.]]></item>
 		<item name="wcf.acp.option.mibbit_welcomemessage"><![CDATA[Welcome message]]></item>
 		<item name="wcf.acp.option.mibbit_welcomemessage.description"><![CDATA[Here you can define a custom welcome message. Language variables are supported.<br />
-<div class="info">Enabling this optione doesn't make any sense if you have activated "Autoconnect".</div>]]></item>
+<div class="info">Enabling this option doesn't make any sense if you have activated "Autoconnect".</div>]]></item>
 	</category>
 	
 	<!-- USER -->
