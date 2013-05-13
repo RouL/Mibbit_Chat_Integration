@@ -18,12 +18,6 @@
 		</categories>
 		
 		<options>
-			<option name="module_user_mibbit">
-				<categoryname>module.user</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>1</defaultvalue>
-			</option>
-
 			<!-- mibbit.connection -->
 			<option name="mibbit_authkey">
 				<categoryname>mibbit.connection</categoryname>
