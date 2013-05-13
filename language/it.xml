@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/language.xsd" languagecode="it">
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="it">
 	<!-- ACP -->
 	<category name="wcf.acp.option">
 		<item name="wcf.acp.option.category.mibbit"><![CDATA[Mibbit Chat]]></item>
@@ -56,11 +56,8 @@
 	
 	<!-- USER -->
 	<category name="wcf.mibbit">
-		<item name="wcf.mibbit.title"><![CDATA[Chat]]></item>
+		<!-- TODO: Fix location -->
 		<item name="wcf.mibbit.location"><![CDATA[<a href="index.php?page=MibbitChat">Chat</a>]]></item>
-	</category>
-	
-	<category name="wcf.header.menu">
-		<item name="wcf.header.menu.mibbitChat"><![CDATA[Chat]]></item>
+		<item name="wcf.mibbit.mibbitChat"><![CDATA[Chat]]></item>
 	</category>
 </language>
