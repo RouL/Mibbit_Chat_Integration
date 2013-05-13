@@ -1,7 +1,7 @@
 Mibbit Chat Integration
 =======================
 
-[![Build Status](https://travis-ci.org/RouL/Mibbit_Chat_Integration.png)](https://travis-ci.org/RouL/Mibbit_Chat_Integration)
+[![Build Status](https://travis-ci.org/RouL/Mibbit_Chat_Integration.png?branch=master)](https://travis-ci.org/RouL/Mibbit_Chat_Integration)
 
 This WCF plugin integrates a Mibbit IRC chat widget into your applications.
 
