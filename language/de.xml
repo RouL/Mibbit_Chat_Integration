@@ -2,7 +2,6 @@
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="de">
 	<!-- ACP -->
 	<category name="wcf.acp.option">
-		<!-- TODO: check all this! -->
 		<item name="wcf.acp.option.category.mibbit"><![CDATA[Mibbit Chat]]></item>
 		<item name="wcf.acp.option.category.mibbit.description"><![CDATA[]]></item>
 		<item name="wcf.acp.option.category.mibbit.connection"><![CDATA[Verbindung]]></item>
