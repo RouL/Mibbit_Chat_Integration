@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/objecttype.xsd">
+	<import>
+		<type>
+			<name>info.codingcorner.wcf.mibbit.MibbitChatPage</name>
+			<definitionname>com.woltlab.wcf.user.online.location</definitionname>
+			<controller>wcf\page\MibbitChatPage</controller>
+			<languagevariable>wcf.mibbit.location</languagevariable>
+		</type>
+	</import>
+</data>

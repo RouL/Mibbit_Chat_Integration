@@ -25,6 +25,11 @@ class MibbitChatPage extends AbstractPage {
 	public $activeMenuItem = 'wcf.mibbit.mibbitChat';
 
 	/**
+	 * @see wcf\page\AbstractPage::$enableTracking
+	 */
+	public $enableTracking = true;
+
+	/**
 	 * URL to the Mibbit widget
 	 */
 	public	$mibbit_url = '';
@@ -312,7 +317,7 @@ class MibbitChatPage extends AbstractPage {
 			'chat_height' => $this->chat_height
 		));
 	}
-	
+
 	/**
 	 * This function romanizes a given string.
 	 *
