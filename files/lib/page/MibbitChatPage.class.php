@@ -1,9 +1,9 @@
 <?php
 namespace wcf\page;
+
 use wcf\page\AbstractPage;
 use wcf\system\exception\IllegalLinkException;
 use wcf\system\WCF;
-use wcf\util\StringUtil;
 
 /**
  * Wraps the Mibbit IRC Chat page.
@@ -254,7 +254,7 @@ class MibbitChatPage extends AbstractPage {
 		
 		// Charset
 		if (MIBBIT_CHARSET == 'auto') {
-			$this->mibbit_url .= "&charset=".CHARSET;
+			$this->mibbit_url .= "&charset=UTF-8";
 		}
 		else {
 			$this->mibbit_url .= "&charset=".MIBBIT_CHARSET;
@@ -331,6 +331,6 @@ class MibbitChatPage extends AbstractPage {
 	 * original files.
 	 */
 	public function romanize($str) {
-		return strtr(StringUtil::convertEncoding(CHARSET, 'UTF-8', $str), $this->romanize_table);
+		return strtr($str, $this->romanize_table);
 	}
 }
