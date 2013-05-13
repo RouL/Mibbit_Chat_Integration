@@ -184,7 +184,7 @@ class MibbitChatPage extends AbstractPage {
 			throw new IllegalLinkException();
 		}
 		
-		parent::__construct();
+		parent::__run();
 	}
 	
 	/**
