@@ -179,7 +179,7 @@ class MibbitChatPage extends AbstractPage {
 		'+', '~', '=', '@', '²', '³', 'µ'
 	);
 	
-	public function __construct() {
+	public function __run() {
 		if (!MODULE_USER_MIBBIT) {
 			throw new IllegalLinkException();
 		}
