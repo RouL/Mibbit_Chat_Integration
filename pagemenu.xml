@@ -4,6 +4,8 @@
 		<pagemenuitem name="wcf.mibbit.mibbitChat">
 			<controller><![CDATA[wcf\page\MibbitChatPage]]></controller>
 			<position>header</position>
+			<permissions>user.message.canUseMibbitChat</permissions>
+			<options>module_mibbit</options>
 		</pagemenuitem>
 	</import>
 </data>

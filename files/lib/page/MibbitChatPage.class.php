@@ -30,6 +30,16 @@ class MibbitChatPage extends AbstractPage {
 	public $enableTracking = true;
 
 	/**
+	 * @see \wcf\page\AbstractPage::$neededModules
+	 */
+	public $neededModules = array('MODULE_MIBBIT');
+	
+	/**
+	 * @see \wcf\page\AbstractPage::$neededPermissions
+	 */
+	public $neededPermissions = array('user.message.canUseMibbitChat');
+
+	/**
 	 * URL to the Mibbit widget
 	 */
 	public	$mibbit_url = '';

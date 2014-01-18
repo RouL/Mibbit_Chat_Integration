@@ -8,8 +8,8 @@
 		<item name="wcf.acp.option.category.mibbit.connection.description"><![CDATA[]]></item>
 		<item name="wcf.acp.option.category.mibbit.appearance"><![CDATA[Darstellung]]></item>
 		<item name="wcf.acp.option.category.mibbit.appearance.description"><![CDATA[]]></item>
-		<item name="wcf.acp.option.module_user_mibbit"><![CDATA[Mibbit IRC Chat Integration]]></item>
-		<item name="wcf.acp.option.module_user_mibbit.description"><![CDATA[Aktiviert die Mibbit IRC Chat Integration.]]></item>
+		<item name="wcf.acp.option.module_mibbit"><![CDATA[Mibbit IRC Chat Integration]]></item>
+		<item name="wcf.acp.option.module_mibbit.description"><![CDATA[Aktiviert die Mibbit IRC Chat Integration.]]></item>
 		<item name="wcf.acp.option.mibbit_authmethod"><![CDATA[Anmeldemethode]]></item>
 		<item name="wcf.acp.option.mibbit_authmethod.description"><![CDATA[Wenn sich am Server angemeldet werden muss, zB. bei einem "Nickserv" oder direkt am Server per "/pass" kann die Methode hier ausgewählt werden. Vergessen sie in dem Falle nicht "Nach Passwort fragen" zu aktivieren.]]></item>
 		<item name="wcf.acp.option.mibbit_authmethod.nickserv"><![CDATA[Nickserv]]></item>
@@ -52,6 +52,11 @@
 		<item name="wcf.acp.option.mibbit_welcomemessage"><![CDATA[Willkommensnachricht]]></item>
 		<item name="wcf.acp.option.mibbit_welcomemessage.description"><![CDATA[Hier haben sie die Möglichkeit eine eigene Willkommensnachricht anzugeben. Sprachvariablen werden unterstützt.<br />
 <div class="info">Das Aktivieren dieser Option macht keinen Sinn, wenn das automatische Verbinden aktiviert ist.</div>]]></item>
+	</category>
+
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.message.mibbit"><![CDATA[Mibbit Chat]]></item>
+		<item name="wcf.acp.group.option.user.message.canUseMibbitChat"><![CDATA[Kann den Mibbit Chat verwenden]]></item>
 	</category>
 	
 	<!-- USER -->

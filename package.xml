@@ -5,7 +5,7 @@
 		<packagename language="de">Mibbit Chat Integration</packagename>
 		<packagedescription>Mibbit Chat-applet integration for the WBB / WCF.</packagedescription>
 		<packagedescription language="de">Mibbit Chat-Applet Integration für das WBB / WCF</packagedescription>
-		<version>2.0.0 Beta 1</version>
+		<version>2.0.0</version>
 		<date>2014-01-18</date>
 		<license><![CDATA[GNU LGPL <http://www.gnu.org/licenses/lgpl.html>]]></license>
 	</packageinformation>
@@ -21,6 +21,7 @@
 	
 	<instructions type="install">
 		<instruction type="option">option.xml</instruction>
+		<instruction type="userGroupOption">userGroupOption.xml</instruction>
 		<instruction type="file">files.tar</instruction>
 		<instruction type="template">templates.tar</instruction>
 		<instruction type="language">language/*.xml</instruction>

@@ -8,8 +8,8 @@
 		<item name="wcf.acp.option.category.mibbit.connection.description"><![CDATA[]]></item>
 		<item name="wcf.acp.option.category.mibbit.appearance"><![CDATA[Aspetto]]></item>
 		<item name="wcf.acp.option.category.mibbit.appearance.description"><![CDATA[]]></item>
-		<item name="wcf.acp.option.module_user_mibbit"><![CDATA[Integrazione con la chat IRC Mibbit]]></item>
-		<item name="wcf.acp.option.module_user_mibbit.description"><![CDATA[Abilita l'integrazione con la chat IRC Mibbit]]></item>
+		<item name="wcf.acp.option.module_mibbit"><![CDATA[Integrazione con la chat IRC Mibbit]]></item>
+		<item name="wcf.acp.option.module_mibbit.description"><![CDATA[Abilita l'integrazione con la chat IRC Mibbit]]></item>
 		<item name="wcf.acp.option.mibbit_authmethod"><![CDATA[Metodo di autenticazione]]></item>
 		<item name="wcf.acp.option.mibbit_authmethod.description"><![CDATA[Se l'utente deve autenticarsi con il server (es. ad un nickserv) potete scegliere il metodo qui. Non dimenticate di attivare la "Richiesta password" in questo caso.]]></item>
 		<item name="wcf.acp.option.mibbit_authmethod.nickserv"><![CDATA[Nickserv]]></item>
