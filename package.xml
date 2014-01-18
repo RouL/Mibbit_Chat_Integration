@@ -2,18 +2,21 @@
 <package name="info.codingcorner.wcf.mibbit" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
 	<packageinformation>
 		<packagename>Mibbit Chat Integration</packagename>
-		<packagedescription>This WCF package integrates a Mibbit IRC chat widget into your applications.</packagedescription>
-		<version>2.0.0 Alpha 1</version>
-		<date>2013-05-13</date>
+		<packagename language="de">Mibbit Chat Integration</packagename>
+		<packagedescription>Mibbit Chat-applet integration for the WBB / WCF.</packagedescription>
+		<packagedescription language="de">Mibbit Chat-Applet Integration für das WBB / WCF</packagedescription>
+		<version>2.0.0 Beta 1</version>
+		<date>2014-01-18</date>
+		<license><![CDATA[GNU LGPL <http://www.gnu.org/licenses/lgpl.html>]]></license>
 	</packageinformation>
 
 	<authorinformation>
-		<author>Markus Bartz (RouL)</author>
+		<author>Markus Zhang</author>
 		<authorurl>http://codingcorner.info/</authorurl>
 	</authorinformation>
 
 	<requiredpackages>
-		<requiredpackage minversion="2.0.0 Alpha 1">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="2.0.1">com.woltlab.wcf</requiredpackage>
 	</requiredpackages>
 	
 	<instructions type="install">

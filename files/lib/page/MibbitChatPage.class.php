@@ -7,9 +7,9 @@ use wcf\system\WCF;
 
 /**
  * Wraps the Mibbit IRC Chat page.
- * 
- * @author		Markus Bartz
- * @copyright	2009 RouLs Coding Corner
+ *
+ * @author		Markus Zhang
+ * @copyright	2014 Markus Zhang
  * @license		GNU Lesser General Public License <http://www.gnu.org/licenses/lgpl.html>
  * @package		info.codingcorner.wcf.mibbit
  * @subpackage	page
@@ -179,6 +179,7 @@ class MibbitChatPage extends AbstractPage {
 		'ㅜ'=>'wu','ㅡ'=>'u','ㅣ'=>'i','ㅐ'=>'ay','ㅔ'=>'ey','ㅚ'=>'oy','ㅘ'=>'wa','ㅝ'=>'we','ㅟ'=>'wi','ㅙ'=>'way',
 		'ㅞ'=>'wey','ㅢ'=>'uy','ㅑ'=>'ya','ㅕ'=>'ye','ㅛ'=>'oy','ㅠ'=>'yu','ㅒ'=>'yay','ㅖ'=>'yey'
 	);
+	
 	private $replace_table = array(
 		' ', ',', ';', '.', ':', '§', '$', '%', '&', '#', '/', '\\', '\'', '"', '°', '?', '(', ')', '`', '´', '*',
 		'+', '~', '=', '@', '²', '³', 'µ'
@@ -314,12 +315,12 @@ class MibbitChatPage extends AbstractPage {
 	 * This function romanizes a given string.
 	 *
 	 * @param	string	$str
-	 * 
+	 *
 	 * This function and the property "$romanize_table" are based on mbstring.php from TYPOlight
 	 * written by Leo Feyer <leo@typolight.org> which is based upon the UTF-8 library written by
 	 * Andreas Gohr <andi@splitbrain.org> which is part of the DokuWiki project.
-	 * 
-	 * Visit http://www.splitbrain.org/projects/dokuwiki and http://www.typolight.org/ for the 
+	 *
+	 * Visit http://www.splitbrain.org/projects/dokuwiki and http://www.typolight.org/ for the
 	 * original files.
 	 */
 	public function romanize($str) {
